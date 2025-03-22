@@ -97,6 +97,10 @@ public:
         // many as 6 even for the default.  However, there is an optimization below that does not
         // add knots for curves that are simply identity.
         //
+        //
+        // 2025 Q1: Increased the number of Knots to 132 (enough for a 66 step lut and coefs) but 
+        // staying under the guidance of 200 knots & 600 coefs.
+
         // Maximum size of the knots array (for ALL curves).
         static constexpr int MAX_NUM_KNOTS = 132;
         // Maximum size of the coefs array (for ALL curves).
