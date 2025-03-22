@@ -98,9 +98,9 @@ public:
         // add knots for curves that are simply identity.
         //
         // Maximum size of the knots array (for ALL curves).
-        static constexpr int MAX_NUM_KNOTS = 60;
+        static constexpr int MAX_NUM_KNOTS = 132;
         // Maximum size of the coefs array (for ALL curves).
-        static constexpr int MAX_NUM_COEFS = 180;
+        static constexpr int MAX_NUM_COEFS = 400;
 
         // Pre-processing arrays of length MAX_NUM_KNOTS and MAX_NUM_COEFS.
         std::vector<float> m_coefsArray;  // Contains packed coefs of ALL curves.
